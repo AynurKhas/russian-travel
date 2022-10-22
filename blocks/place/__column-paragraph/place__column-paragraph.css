@@ -1,0 +1,11 @@
+.place__column-paragraph {
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+}
+
+@media screen and (max-width: 767px) {
+  .place__column-paragraph {
+    padding: 0 16px 0;
+  }
+}

@@ -1,0 +1,27 @@
+.footer__row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+  padding: 0 48px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__row {
+    padding: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__row {
+    flex-flow: column;
+    justify-content: space-between;
+
+    min-height: 310px;
+    min-width: 186px;
+    align-items: flex-start;
+    padding: 0 16px 0;
+  }
+}
